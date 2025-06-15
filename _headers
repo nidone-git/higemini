@@ -1,0 +1,17 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  # Permissions-Policy: microphone=(), camera=()
+
+  # CSP: 'unsafe-eval' を script-src に追加
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://unpkg.com https://esm.sh; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://generativelanguage.googleapis.com; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';
+
+/index.html
+  Content-Type: text/html; charset=UTF-8
+
+/*.js
+  Content-Type: application/javascript; charset=UTF-8
+
+/*.css
+  Content-Type: text/css; charset=UTF-8

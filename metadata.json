@@ -1,0 +1,8 @@
+{
+  "name": "音声AIアシスタント",
+  "description": "Geminiを搭載した音声操作のAIアシスタント。ハンズフリー操作とアクセシビリティを考慮して設計されています。",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}
